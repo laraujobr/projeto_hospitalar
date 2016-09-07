@@ -49,20 +49,13 @@ class Utils {
         }
     }
     
-    public static function setData2BR($data) {
-        
-        $pattern = "/(\d{4})-(\d{2})-(\d{2})/";
-        
-        if(preg_match($pattern,$data) === FALSE) {
-            
-            return $data;
-            
-        } else {
-            
-            return preg_replace($pattern,"$3/$2/$1",$data);
-            
+    public static function setData2BR($data) {        
+        $pattern = "/(\d{4})-(\d{2})-(\d{2})/";        
+        if(preg_match($pattern,$data) === FALSE) {            
+            return $data;            
+        } else {            
+            return preg_replace($pattern,"$3/$2/$1",$data);            
         }
     }
-
 }
 ?>
