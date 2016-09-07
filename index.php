@@ -1,9 +1,9 @@
 <?php  
 require_once("engine/php/Utils.class.php");
 require_once("engine/php/Connection.class.php");
-$query = "SELECT * FROM tabela_teste";
+$query = "INSERT INTO tabela_teste VALUES ('macaco','tatu bola')";
 
-$result = Connection::getResult($query);
+$result = Connection::setValue($query);
 
 /*print_r($result);*/
 foreach($result as $k => $v){
