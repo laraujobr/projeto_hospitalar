@@ -5,7 +5,7 @@ class Connection {
     public static function getResult($query) {
         
         $db_name = "(local)";
-        $database = array("Database"=>"stark","UID"=>"sys_hospitalar", "PWD"=>"123456" );        
+        $database = array("Database"=>"DB_HOSPITAL","UID"=>"sys_hospitalar", "PWD"=>"123456" ); 
         $link = sqlsrv_connect($db_name,$database);
         if (!$link) {
             die('Could not connect: ' . print_r(sqlsrv_errors())). "<br />";
@@ -31,7 +31,7 @@ class Connection {
     public static function setValue($query) {
 
         $db_name = "(local)";
-        $database = array("Database"=>"stark","UID"=>"sys_hospitalar", "PWD"=>"123456" );        
+        $database = array("Database"=>"DB_HOSPITAL","UID"=>"sys_hospitalar", "PWD"=>"123456" );        
         $link = sqlsrv_connect($db_name,$database);
         if (!$link) {
             die('Could not connect: ' . print_r(sqlsrv_errors())). "<br />";
