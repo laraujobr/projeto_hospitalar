@@ -49,14 +49,27 @@ switch($case) {
     break;
 
     case 'act':       
+        
         $act = $_REQUEST['act'];
+        
         switch($act) {
+            
             case 'getSessao':
                 $usuario = $_REQUEST['usuario'];
                 $senha = $_REQUEST['senha'];
                 
                 $_SESSION['Usuario'] = SessaoUsuario::getSessao($usuario, $senha);
                 $_SESSION['Usuario']['Unidade'] = SessaoUsuario::getUnidades($_SESSION['Usuario']['0']['idUsuario']);
+
+                if(isset($_SESSION['Usuario']['0']['idUsuario'])){
+                    echo '1';
+                }
+                
+            break;
+            
+            case 'setLogout':
+                
+                session_destroy();
                 
             break;
         }

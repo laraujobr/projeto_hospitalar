@@ -1,0 +1,142 @@
+/* 
+    Document   : index
+    Created on : 13/09/2012, 21:07:13
+    Author     : Administrador
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    
+    display: block;
+    
+}
+
+body {
+                               
+    background-color: #EEEEEE;
+    font-family: sans-serif;
+    font-size: 13px;
+
+}
+
+#index_menuTopo {
+
+    background-color: #E5E5E5;
+    height: 75px;
+    float: left;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+#index_menuTopoItens {
+    
+    float: left;
+    position: absolute;
+    
+}
+
+#index_menuTopoItens ul > li {
+
+    cursor: pointer;
+    color: #525C66;
+    display: inline;
+    float: left;
+    font-family: sans-serif;
+    margin-right: 50px;                
+
+}
+
+#index_menuTopoItens a {
+    
+    color: #525C66;
+    text-decoration: none;
+}
+
+#index_menuTopoItens a:hover {
+
+    color: black;
+
+}
+
+#index_menuTopoLogo {
+    
+    float: left;
+    text-align: right;
+    width: 100%;
+    
+}
+
+#index_subMenuTopo {
+
+    background-color: #F0F0F0;
+    height: 40px;
+    float: left;
+    text-align: center;
+    width: 100%;
+
+}
+
+#index_subMenuItens {
+    
+    position: absolute;
+    
+}
+
+#index_subMenuItens ul > li {
+
+    color: #525C66;
+    display: inline;
+    float: left;
+    font-family: sans-serif;    
+    margin-right: 50px;                
+
+}
+
+#index_subMenuItens a {
+    
+    color: #525C66;
+    text-decoration: none;
+}
+
+#index_subMenuItens a:hover {
+
+    color: black;
+    text-decoration: underline;
+    
+}
+
+#index_usuarioTopo {
+    
+    text-align: right;
+    float: left;
+    padding-top: 12px;
+    margin-left: -10px;
+    width: 100%;    
+}
+
+#index_ajax_content {
+    
+    float:left;
+    width: 100%;
+    
+}
+
+#index_ajax_content {
+    
+    float: left;
+    width: 100%;
+    
+}
+
+#index_rodape {
+    
+    float: left;
+    font-size: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    
+}
