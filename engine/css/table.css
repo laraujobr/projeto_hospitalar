@@ -1,43 +1,47 @@
-/* 
-    Document   : table
-    Created on : 23/10/2012, 23:02:51
-    Author     : Lucas
-    Description:
-        Purpose of the stylesheet follows.
-*/
-
-root { 
-    display: block;
-}
-
-table.default {
-    border-style: ridge;
-    border-width: 0px;
-    border-collapse: collapse;
-    font-family: sans-serif;
-    font-size: 12px;
-}
-
-table.default thead th, table.default tbody th, table.default tfoot td {
-    background: #CCCCCC;
-    border-style: ridge;
-    border-width: 0px;
-    text-align: center;
-    vertical-align: bottom;
-}
-
-table.default tbody th {
-    text-align: center;
-    width: 20px;
-}
-
-table.default tbody td {
-    /*background: #EEEEEE;*/
-    vertical-align: bottom;
-}
-
-table.default tbody td {
-    padding: 0 3px;
-    border: 1px solid #EEEEEE;
-}
+table.lista {
     
+    width: 100%;
+    
+}
+
+table.lista thead tr {
+    
+    background-color: #E3E3E3;
+    
+}
+
+table.lista tbody tr {
+    
+    text-align: center;
+    
+}
+
+table.lista tbody tr:nth-child(odd) {
+    
+    background-color: #F4F4F4;
+    
+}
+
+table.lista tfoot tr {
+    
+    background-color: #E3E3E3;
+    
+}
+
+table.lista2 {
+    
+    width: 100%;
+    
+}
+
+table.lista2 tbody tr:nth-child(odd) {
+    
+    background-color: #E3E3E3;
+    
+}
+
+table.lista2 tbody tr:nth-child(even) {
+    
+    background-color: #F4F4F4;
+    
+}

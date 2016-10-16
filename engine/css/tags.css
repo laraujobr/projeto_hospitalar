@@ -1,13 +1,25 @@
-/* 
-    Document   : tags
-    Created on : 04/11/2012, 20:32:04
-    Author     : Lucas
-    Description:
-        Purpose of the stylesheet follows.
-*/
+#ui-datepicker-div{
+    
+    font: 90% "Trebuchet MS", sans-serif;
+    
+}
 
-root { 
-    display: block;
+a {
+    
+  color: #0A4D8C  
+
+}
+
+a:hover {
+    
+    text-decoration: none;
+    
+}
+
+h1 {
+    
+    font-size: 16px;
+    
 }
 
 input[type="button"], input[type="file"], input[type="submit"] {
@@ -15,8 +27,4 @@ input[type="button"], input[type="file"], input[type="submit"] {
     border: 1px solid #EEEEEE;
     cursor: pointer;
     height: 30px;
-}
-
-a:hover {
-    text-decoration: none;
 }
