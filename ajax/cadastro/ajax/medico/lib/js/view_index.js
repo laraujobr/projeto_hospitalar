@@ -5,6 +5,7 @@ $(document).ready(function(){
         autoOpen: false,
         width: 450,
         height: 300,
+        modal: true,
         buttons: [
                 {
                     text: "Inserir",
@@ -41,6 +42,7 @@ $(document).ready(function(){
         autoOpen: false,
         width: 450,
         height: 300,
+        modal: true,
         buttons: [
                 {
                     text: "Alterar",

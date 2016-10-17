@@ -37,7 +37,7 @@ require_once("engine/php/Utils.class.php");
                     <ul>
                         <li>
                             <div><i class="fa fa-h-square fa-3x" aria-hidden="true"></i></div>
-                            <div><a href="#" class="index_menuButton" rel="inicio"><?php echo "Início";?></a></div>
+                            <div><a href="#" class="index_menuButton" rel="inicio"><?php echo "InÃ­cio";?></a></div>
                         </li>
                         <li>
                             <div><i class="fa fa-user fa-3x" aria-hidden="true"></i></div>
