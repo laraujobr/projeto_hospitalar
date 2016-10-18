@@ -1,16 +1,16 @@
 $(document).ready(function(){
    
     $.ajax({
-        url: 'ajax/controller.php',
+        url: 'ajax/cadastro/ajax/controller.php',
         data: {
-            'ajax_path':'link',
+            'ajax_path':'paciente',
             'ajax_page':'ajax',
             'case':'view',
             'view':'index'
         },
         type: 'POST',
         success: function(data) {
-            $('#link_ajax_content').html(data);
+            $('#paciente_ajax_content').html(data);
         }
     });
     

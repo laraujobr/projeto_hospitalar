@@ -12,25 +12,25 @@ $dialog = $_REQUEST['dialog'];
         <table>
             <tbody>
                 <tr>
-                    <td><strong>medico:</strong></td>
-                    <td><input id="cadastro_medico_dialog_alterar_dialogNome" type="text" value="medico <?php echo "{$id}"; ?>" /></td>
+                    <td><strong>Médico:</strong></td>
+                    <td><input id="cadastro_medico_dialog_alterar_dialogNome" type="text" value="Médico <?php echo "{$id}"; ?>" /></td>
                 </tr>
                 <tr>
-                    <td><strong>Tipo M&eacute;dico: </strong></td>
+                    <td><strong>Tipo Médico:</strong></td>
                     <td>
                         <select id="cadastro_medico_dialog_alterar_dialogUsuario" >
-                                <option>Cirurgi&atilde;o</option>
-                                <option>Cl&iacute;nico Geral</option>
                                 <option>Anestesista</option>
+                                <option>Cirurgião</option>
+                                <option>Clínico Geral</option>
                         </select> 
                     </td>
                 </tr>
                 <tr>
-                    <td><strong>Status: </strong></td>
+                    <td><strong>Status:</strong></td>
                     <td>
                         <select id="cadastro_medico_dialog_alterar_dialogStatus" >
-                            <option value="true"  selected="selected" >Ativo</option>    
-                            <option value="false"  >Inativo</option>  
+                            <option value="true" selected="selected" >Ativo</option>    
+                            <option value="false" >Inativo</option>  
                         </select>    
                     </td>
                 </tr>
@@ -42,25 +42,25 @@ $dialog = $_REQUEST['dialog'];
         <table>
             <tbody>
                 <tr>
-                    <td><strong>medico:</strong></td>
+                    <td><strong>Médico:</strong></td>
                     <td><input id="cadastro_medico_dialog_inserir_dialogNome" type="text"  /></td>
                 </tr>
                 <tr>
-                    <td><strong>Tipo M&eacute;dico: </strong></td>
+                    <td><strong>Tipo Médico:</strong></td>
                     <td>
                         <select id="cadastro_medico_dialog_inserir_dialogUsuario" >
-                                <option>Cirurgi&atilde;o</option>
-                                <option>Cl&iacute;nico Geral</option>
                                 <option>Anestesista</option>
+                                <option>Cirurgião</option>
+                                <option>Clínico Geral</option>
                         </select> 
                     </td>
                 </tr>
                 <tr>
-                    <td><strong>Status: </strong></td>
+                    <td><strong>Status:</strong></td>
                     <td>
                         <select id="cadastro_medico_dialog_inserir_dialogStatus" >
                             <option value="true"  selected="selected" >Ativo</option>    
-                            <option value="false"  >Inativo</option>  
+                            <option value="false" >Inativo</option>  
                         </select>    
                     </td>
                 </tr>

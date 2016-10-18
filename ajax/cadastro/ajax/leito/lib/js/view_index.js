@@ -5,6 +5,7 @@ $(document).ready(function(){
         autoOpen: false,
         width: 450,
         height: 300,
+        modal: true,
         buttons: [
                 {
                     text: "Inserir",
@@ -20,7 +21,8 @@ $(document).ready(function(){
                         type: 'POST',
                         success: function(data) {
                                 
-                            alert("leito incluida com sucesso");    
+                            alert("Leito incluido com sucesso.");
+                            $("#cadastro_leito_view_index_dialogInserir").dialog("close");
 
                         }
                     });
@@ -41,6 +43,7 @@ $(document).ready(function(){
         autoOpen: false,
         width: 450,
         height: 300,
+        modal: true,
         buttons: [
                 {
                     text: "Alterar",
@@ -56,7 +59,7 @@ $(document).ready(function(){
                         type: 'POST',
                         success: function(data) {
                                 
-                            alert("leito alterada com sucesso");    
+                            alert("Leito alterado com sucesso.");
 
                         }
                     });

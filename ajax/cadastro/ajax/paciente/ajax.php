@@ -14,7 +14,7 @@ switch($case) {
 ?>
 
     <fieldset>
-        <legend><strong>Links</strong></legend>
+        <legend><strong>Pacientes</strong></legend>
     </fieldset>      
     
 <?php

@@ -12,8 +12,8 @@ $dialog = $_REQUEST['dialog'];
         <table>
             <tbody>
                 <tr>
-                    <td><strong>leito:</strong></td>
-                    <td><input id="cadastro_leito_dialog_alterar_dialogNome" type="text" value="leito <?php echo "{$id}"; ?>" /></td>
+                    <td><strong>Leito:</strong></td>
+                    <td><input id="cadastro_leito_dialog_alterar_dialogNome" type="text" value="Leito <?php echo "{$id}"; ?>" /></td>
                 </tr>
                 <tr>
                     <td><strong>Unidade: </strong></td>
@@ -43,7 +43,7 @@ $dialog = $_REQUEST['dialog'];
         <table>
             <tbody>
                 <tr>
-                    <td><strong>leito:</strong></td>
+                    <td><strong>Leito:</strong></td>
                     <td><input id="cadastro_leito_dialog_inserir_dialogNome" type="text"  /></td>
                 </tr>
                 <tr>

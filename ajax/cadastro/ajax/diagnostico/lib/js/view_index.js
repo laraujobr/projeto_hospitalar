@@ -1,10 +1,11 @@
 $(document).ready(function(){    
     
     $("#cadastro_diagnostico_view_index_dialogInserir").dialog( {
-        title: "Inserir diagnostico",
+        title: "Inserir diagnóstico",
         autoOpen: false,
         width: 450,
         height: 300,
+        modal: true,
         buttons: [
                 {
                     text: "Inserir",
@@ -20,7 +21,8 @@ $(document).ready(function(){
                         type: 'POST',
                         success: function(data) {
                                 
-                            alert("diagnostico incluida com sucesso");    
+                            alert("Diagnóstico incluido com sucesso.");
+                            $("#cadastro_diagnostico_view_index_dialogInserir").dialog("close");
 
                         }
                     });
@@ -37,10 +39,11 @@ $(document).ready(function(){
     });
     
     $("#cadastro_diagnostico_view_index_dialogAlterar").dialog( {
-        title: "Alterar diagnostico",
+        title: "Alterar diagnóstico",
         autoOpen: false,
         width: 450,
         height: 300,
+        modal: true,
         buttons: [
                 {
                     text: "Alterar",
@@ -56,7 +59,7 @@ $(document).ready(function(){
                         type: 'POST',
                         success: function(data) {
                                 
-                            alert("diagnostico alterada com sucesso");    
+                            alert("Diagnóstico alterado com sucesso.");    
 
                         }
                     });

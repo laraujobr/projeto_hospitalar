@@ -15,10 +15,9 @@
                 <thead>
                     <tr>
                         <th>Unidade</th>
-                        <th>Usuario Respons&aacute;vel</th>
-                        <th>Situacao</th>
-                        <th>A&ccedil;&atilde;o</th>
-                        <th>Inserir Novo</th>
+                        <th>Usuario Responsável</th>
+                        <th>Situação</th>
+                        <th>Ação</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -27,10 +26,10 @@
                         <td>
                         <select id="cadastro_unidade_dialog_alterar_dialogUsuario:" >
                             <option value="true"  selected="selected" disabled >Selecione</option>    
-                            <option value="false"  >Usu&aacute;rio 1</option>
-                            <option value="false"  >Usu&aacute;rio 2</option>
-                            <option value="false"  >Usu&aacute;rio 3</option>
-                            <option value="false"  >Usu&aacute;rio 4</option>
+                            <option value="false"  >Usuário 1</option>
+                            <option value="false"  >Usuário 2</option>
+                            <option value="false"  >Usuário 3</option>
+                            <option value="false"  >Usuário 4</option>
                         </select>    
                     </td>
                         <td>
@@ -39,8 +38,10 @@
                                 <option>Inativo</option>
                             </select>
                         </td>
-                        <td><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></td>
-                        <td><input type="button" id="cadastro_unidade_view_index_indexInserir" value="Inserir" ></td>
+                        <td>
+                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <a href="#" id="cadastro_unidade_view_index_indexInserir"><i class="fa fa-plus-square" aria-hidden="true"></i></a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -51,9 +52,9 @@
                 <thead>
                     <tr>
                         <th>Unidade</th>
-                        <th>Usuario Respons&aacute;vel</th>
-                        <th>Situa&ccedil;&atilde;o</th>
-                        <th>A&ccedil;&atilde;o</th>
+                        <th>Usuario Responsável</th>
+                        <th>Situação</th>
+                        <th>Ação</th>
                     </tr>
                 </thead>
                 <tbody>

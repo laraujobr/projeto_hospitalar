@@ -1,10 +1,11 @@
 $(document).ready(function(){    
     
     $("#cadastro_unidade_view_index_dialogInserir").dialog( {
-        title: "Inserir Unidade",
+        title: "Inserir unidade",
         autoOpen: false,
         width: 450,
         height: 300,
+        modal: true,
         buttons: [
                 {
                     text: "Inserir",
@@ -20,7 +21,8 @@ $(document).ready(function(){
                         type: 'POST',
                         success: function(data) {
                                 
-                            alert("Unidade incluida com sucesso");    
+                            alert("Unidade incluida com sucesso.");    
+                            $("#cadastro_unidade_view_index_dialogInserir").dialog("close");
 
                         }
                     });
@@ -37,10 +39,11 @@ $(document).ready(function(){
     });
     
     $("#cadastro_unidade_view_index_dialogAlterar").dialog( {
-        title: "Alterar Unidade",
+        title: "Alterar unidade",
         autoOpen: false,
         width: 450,
         height: 300,
+        modal: true,
         buttons: [
                 {
                     text: "Alterar",
@@ -56,7 +59,7 @@ $(document).ready(function(){
                         type: 'POST',
                         success: function(data) {
                                 
-                            alert("Unidade alterada com sucesso");    
+                            alert("Unidade alterada com sucesso.");    
 
                         }
                     });

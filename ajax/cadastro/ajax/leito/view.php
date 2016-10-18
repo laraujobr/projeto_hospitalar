@@ -8,18 +8,17 @@
 ?>
 
  <fieldset>
-        <legend>leitos</legend>
+        <legend>Leitos</legend>
         <fieldset>
             <legend>Filtros</legend>
             <table class="lista">
                 <thead>
                     <tr>
-                        <th>leito</th>
+                        <th>Leito</th>
                         <th>Unidade</th>
                         <th>Status</th>
-                        <th>Situacao</th>
-                        <th>A&ccedil;&atilde;o</th>
-                        <th>Inserir Novo</th>
+                        <th>Situação</th>
+                        <th>Ação</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -45,8 +44,10 @@
                                 <option>Inativo</option>
                             </select>
                         </td>
-                        <td><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></td>
-                        <td><input type="button" id="cadastro_leito_view_index_indexInserir" value="Inserir" ></td>
+                        <td>
+                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <a href="#" id="cadastro_leito_view_index_indexInserir"><i class="fa fa-plus-square" aria-hidden="true"></i></a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -56,37 +57,37 @@
             <table class="lista">
                 <thead>
                     <tr>
-                        <th>leito</th>
+                        <th>Leito</th>
                         <th>Unidade</th>
                         <th>Status</th>
-                        <th>Situa&ccedil;&atilde;o</th>
-                        <th>A&ccedil;&atilde;o</th>
+                        <th>Situação</th>
+                        <th>Ação</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>leito 1</td>
+                        <td>Leito 1</td>
                         <td>Unidade 1</td>
                         <td>Ocupado</td>
                         <td>Ativo</td>
                         <td><a href="#" class="cadastro_leito_view_index_indexAlterar" rel="1" ><i  class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
                     </tr>                                      
                     <tr>
-                        <td>leito 2</td>
+                        <td>Leito 2</td>
                         <td>Unidade 1</td>
                         <td>Vazio</td>
                         <td>Ativo</td>
                         <td><a href="#" class="cadastro_leito_view_index_indexAlterar" rel="2" ><i  class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
-                        <td>leito 3</td>
+                        <td>Leito 3</td>
                         <td>Unidade 2</td>
                         <td>Ocupado</td>
                         <td>Ativo</td>
                         <td><a href="#" class="cadastro_leito_view_index_indexAlterar" rel="3" ><i  class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
-                        <td>leito 4</td>
+                        <td>Leito 4</td>
                         <td>Unidade 3</td>
                         <td>Vazio</td>
                         <td>Ativo</td>

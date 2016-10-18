@@ -14,7 +14,7 @@ switch($case) {
 ?>
 
     <fieldset>
-        <legend><strong>Início</strong></legend>        
+        <legend>InÃ­cio</legend>        
         
         <h3>UTI CM 6o</h3>
         

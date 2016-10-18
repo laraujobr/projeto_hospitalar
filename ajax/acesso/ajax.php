@@ -17,7 +17,7 @@ switch($case) {
             <table>
                 <thead>                    
                     <tr>
-                        <td align="right">Usu·rio:</td>
+                        <td align="right">Usu√°rio:</td>
                         <td><input type="text" id="acesso_view_index_usuario" size="50" maxlength="50" /></td>
                     </tr>
                     <tr>
@@ -64,7 +64,7 @@ switch($case) {
 
     <fieldset>
         
-        <legend>Usu·rios</legend>
+        <legend>Usu√°rios</legend>
     
         <fieldset>
             
@@ -77,9 +77,9 @@ switch($case) {
                     <tr>
                         <th>Nome</th>
                         <th>Login</th>
-                        <th>NÌvel</th>
-                        <th>SituaÁ„o</th>
-                        <th>AÁ„o</th>
+                        <th>N√≠vel</th>
+                        <th>Situa√ß√£o</th>
+                        <th>A√ß√£o</th>
                     </tr>
 
                 </thead>
@@ -102,7 +102,10 @@ switch($case) {
                                 <option>Inativo</option>
                             </select>
                         </td>
-                        <td><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></td>
+                        <td>
+                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-plus-square" aria-hidden="true"></i></a>
+                        </td>
                     </tr>
 
                 </tbody>
@@ -122,9 +125,9 @@ switch($case) {
                     <tr>
                         <th>Nome</th>
                         <th>Login</th>
-                        <th>NÌvel</th>
-                        <th>SituaÁ„o</th>
-                        <th>AÁ„o</th>
+                        <th>N√≠vel</th>
+                        <th>Situa√ß√£o</th>
+                        <th>A√ß√£o</th>
                     </tr>
 
                 </thead>
@@ -132,7 +135,7 @@ switch($case) {
                 <tbody>
 
                     <tr>
-                        <td>Lucas Soares e Ara˙jo</td>
+                        <td>Lucas Soares e Ara√∫jo</td>
                         <td>laraujo</td>
                         <td>Administrador</td>
                         <td>Ativo</td>

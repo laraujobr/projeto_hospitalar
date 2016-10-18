@@ -6,7 +6,6 @@ require_once("engine/php/Utils.class.php");
 <html>
     
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         
         <title>Projeto Hospitalar</title>
         

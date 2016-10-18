@@ -8,17 +8,16 @@
 ?>
 
  <fieldset>
-        <legend>Medicos</legend>
+        <legend>Médicos</legend>
         <fieldset>
             <legend>Filtros</legend>
             <table class="lista">
                 <thead>
                     <tr>
-                        <th>medico</th>
-                        <th>Tipo m&eacute;dico
-                        <th>Situacao</th>
-                        <th>A&ccedil;&atilde;o</th>
-                        <th>Inserir Novo</th>
+                        <th>Médico</th>
+                        <th>Tipo médico</th>
+                        <th>Situação</th>
+                        <th>Ação</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -26,9 +25,9 @@
                         <td><input type="text" size="50"></td>
                         <td>
                             <select>
-                                <option>Cirurgi&atilde;o</option>
-                                <option>Cl&iacute;nico Geral</option>
                                 <option>Anestesista</option>
+                                <option>Cirurgião</option>
+                                <option>Clínico Geral</option>
                             </select>
                         </td>
                         <td>
@@ -37,8 +36,10 @@
                                 <option>Inativo</option>
                             </select>
                         </td>
-                        <td><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></td>
-                        <td><input type="button" id="cadastro_medico_view_index_indexInserir" value="Inserir" ></td>
+                        <td>
+                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <a href="#" id="cadastro_medico_view_index_indexInserir"><i class="fa fa-plus-square" aria-hidden="true"></i></a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -48,34 +49,34 @@
             <table class="lista">
                 <thead>
                     <tr>
-                        <th>M&eacute;dico</th>
-                        <th>Tipo m&eacute;dico
-                        <th>Situa&ccedil;&atilde;o</th>
-                        <th>A&ccedil;&atilde;o</th>
+                        <th>Médico</th>
+                        <th>Tipo médico</th>
+                        <th>Situação</th>
+                        <th>Ação</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>medico 1</td>
-                        <td>Cirurg&atilde;o</td>
+                        <td>Médico 1</td>
+                        <td>Cirurgião</td>
                         <td>Ativo</td>
                         <td><a href="#" class="cadastro_medico_view_index_indexAlterar" rel="1" ><i  class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
                     </tr>                                      
                     <tr>
-                        <td>medico 2</td>
-                        <td>Cl&iacute;nico Geral</td>
+                        <td>Médico 2</td>
+                        <td>Clínico Geral</td>
                         <td>Ativo</td>
                         <td><a href="#" class="cadastro_medico_view_index_indexAlterar" rel="2" ><i  class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
-                        <td>medico 3</td>
+                        <td>Médico 3</td>
                         <td>Anestesista</td>
                         <td>Ativo</td>
                         <td><a href="#" class="cadastro_medico_view_index_indexAlterar" rel="3" ><i  class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
                     </tr>
                     <tr>
-                        <td>medico 4</td>
-                        <td>Cirurg&atilde;o</td>
+                        <td>Médico 4</td>
+                        <td>Cirurgião</td>
                         <td>Ativo</td>
                         <td><a  href="#" class="cadastro_medico_view_index_indexAlterar" rel="4" ><i  class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
                     </tr>

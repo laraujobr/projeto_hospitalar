@@ -1,7 +1,7 @@
 $(document).ready(function(){    
     
     $("#cadastro_medico_view_index_dialogInserir").dialog( {
-        title: "Inserir medico",
+        title: "Inserir Médico",
         autoOpen: false,
         width: 450,
         height: 300,
@@ -21,8 +21,9 @@ $(document).ready(function(){
                         type: 'POST',
                         success: function(data) {
                                 
-                            alert("medico incluida com sucesso");    
-
+                            alert("Médico incluido com sucesso.");    
+                            $("#cadastro_medico_view_index_dialogInserir").dialog("close");
+                            
                         }
                     });
 
@@ -58,7 +59,7 @@ $(document).ready(function(){
                         type: 'POST',
                         success: function(data) {
                                 
-                            alert("medico alterada com sucesso");    
+                            alert("Médico alterado com sucesso.");    
 
                         }
                     });

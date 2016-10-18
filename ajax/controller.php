@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: text/html; charset=ISO-8859-1",true);
+header("Content-Type: text/html; charset=UTF-8",true);
 
 $ajax_path = $_REQUEST['ajax_path'];
 $ajax_page = $_REQUEST['ajax_page'];
@@ -22,7 +22,7 @@ if(file_exists("{$ajax_path}/{$ajax_page}.php")) {
     
 } else {
     
-    echo "Arquivo requisitado não encontrado. {$ajax_path}/{$ajax_page}.php"; 
+    echo "Arquivo requisitado nÃ£o encontrado. {$ajax_path}/{$ajax_page}.php"; 
     
 }
 ?>
