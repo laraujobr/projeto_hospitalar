@@ -25,19 +25,6 @@ switch($case) {
                         <td><input type="password" id="acesso_view_index_senha" size="50" maxlength="50" /></td>
                     </tr>
                     <tr>
-                        <td align="right">Unidade:</td>
-                        <td>
-                            <select>
-                                <option>Selecione</option>
-                                <option>Unidade 1</option>
-                                <option>Unidade 2</option>
-                                <option>Unidade 3</option>
-                                <option>Unidade 4</option>
-                                <option>Unidade 5</option>
-                            </select>    
-                        </td>
-                    </tr>
-                    <tr>
                         <td></td>
                         <td align="left">
                             <input type="button" value="Acessar" id="acesso_view_index_acessar"> 

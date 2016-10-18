@@ -24,7 +24,7 @@
                     <tr>
                         <td><input type="text" size="50"></td>
                         <td>
-                        <select id="cadastro_unidade_dialog_alterar_dialogUsuario:" >
+                        <select>
                             <option value="true"  selected="selected" disabled >Selecione</option>    
                             <option value="false"  >Usuário 1</option>
                             <option value="false"  >Usuário 2</option>

@@ -35,20 +35,24 @@ require_once("engine/php/Utils.class.php");
                 <div id="index_menuTopoItens">
                     <ul>
                         <li>
-                            <div><i class="fa fa-h-square fa-3x" aria-hidden="true"></i></div>
-                            <div><a href="#" class="index_menuButton" rel="inicio"><?php echo "Início";?></a></div>
+                            <div><i class="fa fa-h-square fa-3x" aria-hidden="true" style="color: #2b81af"></i></div>
+                            <div><a href="#" class="index_menuButton" rel="inicio">Início</a></div>
                         </li>
                         <li>
-                            <div><i class="fa fa-user fa-3x" aria-hidden="true"></i></div>
-                            <div><a href="#" class="index_menuButton" rel="acesso"><?php echo "Acessos";?></a></div>
+                            <div><i class="fa fa-user fa-3x" aria-hidden="true" style="color: #2b81af"></i></div>
+                            <div><a href="#" class="index_menuButton" rel="acesso">Acessos</a></div>
                         </li>
                         <li>
-                            <div><i class="fa fa-puzzle-piece fa-3x" aria-hidden="true"></i></div>
-                            <div><a href="#" class="index_menuButton" rel="cadastro"><?php echo "Cadastros";?></a></div>
+                            <div><i class="fa fa-puzzle-piece fa-3x" aria-hidden="true" style="color: #2b81af"></i></div>
+                            <div><a href="#" class="index_menuButton" rel="cadastro">Cadastro</a></div>
                         </li>
                         <li>
-                            <div><i class="fa fa-link fa-3x" aria-hidden="true"></i></div>
-                            <div><a href="#" class="index_menuButton" rel="link"><?php echo "Links";?></a></div>
+                            <div><i class="fa fa-user-md fa-3x" aria-hidden="true" style="color: #2b81af"></i></div>
+                            <div><a href="#" class="index_menuButton" rel="internacao">Internação</a></div>
+                        </li>
+                        <li>
+                            <div><i class="fa fa-link fa-3x" aria-hidden="true" style="color: #2b81af"></i></div>
+                            <div><a href="#" class="index_menuButton" rel="link">Links</a></div>
                         </li>
                     </ul>
                 </div>
@@ -64,14 +68,15 @@ require_once("engine/php/Utils.class.php");
                 <div id="index_subMenuItens"></div>
 
                 <div id="index_usuarioTopo">
-                    <?php echo  'M'=='M'?'Bem-Vindo':'Bem-Vinda';?>, <a href="#" rel="<?php echo "123";?>" class=""><?php echo  "Phillipe Souza Pires";?></a> - <a href="#" id="index_usuarioTopo_sair" >Sair</a>
+                    <?php echo  'M'=='M'?'Bem-Vindo':'Bem-Vinda';?>, <a href="#" rel="<?php echo "123";?>" class=""><?php echo  "Phillipe Souza Pires";?></a> - <a href="http://localhost/projeto_hospitalar/" target="_blank" >Nova Guia</a> - <a href="#" id="index_usuarioTopo_sair" >Sair</a>
                 </div>
 
             </div>        
         <?php } ?>
+        
         <div id="index_ajax_content"></div>
         
-        <div id="index_rodape">2016 - Prototipo Projeto HC</div>
+        <div id="index_rodape">2016 - Protótipo Projeto HC</div>
         
     </body>
     
